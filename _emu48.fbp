@@ -1,0 +1,62 @@
+[Project]
+Version=3
+Description=....descripcion (nota: API y DEFAPI son propios FBIDE para ver los colores del codigo)..........
+Api=fb (FreeBASIC),gdip (Gdi+),ogl (OpenGL),sv (Showvars),win (Windows),wx (wx Widgets)
+DefApi=fb (FreeBASIC),gdip (Gdi+),ogl (OpenGL),sv (Showvars),win (Windows),wx (wx Widgets)
+Grouping=1
+AddMainFiles=1
+AddModuleFiles=1
+ResExport=
+CompileIfNewer=0
+IncVersion=0
+RunCmd=0
+[Make]
+Module=Module Build,fbc -c
+Recompile=2
+Current=1
+1=Windows Console,fbc -s console
+2=Windows GUI,fbc -s gui
+Output=
+Run=
+Delete=
+[TabOrder]
+CurrentTab=1
+TabOrder=1,2,3,4,5,6,7,8,9,10
+[File]
+Main=1
+1=0_emu48.bas
+2=1_variables.bas
+3=2_declaraciones.bas
+4=3_saturn.bas
+5=4_instr.bas
+6=5_hardware.bas
+7=6_memoria.bas
+8=7_teclado.bas
+9=fetch.bi
+10=opcodes.bi
+[BreakPoint]
+1=
+2=
+3=
+4=
+12=
+8=
+9=
+10=
+5=
+6=
+7=
+11=
+[FileInfo]
+1=0,54,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2=0,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3=0,105,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+4=0,143,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5=0,392,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+6=0,68,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+7=0,54,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+8=0,514,1,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+9=0,707,1,33557951,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+10=0,431,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+
+
