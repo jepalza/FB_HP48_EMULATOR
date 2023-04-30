@@ -8,5 +8,4 @@ Hay muchos recursos en la red para extraerlos de una HP real (yo poseo ambas ver
 
 El emulador tiene un fallo que no he logado reparar, y es que el teclado virtual llega un momento en el que falla, y ya no se puede continuar.
 
-fb_48emul
 ![Imagen fb_48emul.png](https://github.com/jepalza/FB_HP48_EMULATOR/blob/main/fb_48emul.png)
